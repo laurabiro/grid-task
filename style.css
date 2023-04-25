@@ -42,8 +42,8 @@ body {
 .container {
     
     display: grid;
-    width: 650px;
-    max-height: 100vh;
+    max-width: 650px;
+    
     grid-template-columns: repeat(5, 1fr); 
     grid-template-rows: [row1-start] 150px [row1-end] 150px [third-line] 150px [last-line];
     grid-template-areas: 
@@ -65,8 +65,13 @@ body {
             "pear" 
             "tomato"
         ;
+        
 
     }
+}
+
+.box {
+    font-size: 20px;
 }
 
 
